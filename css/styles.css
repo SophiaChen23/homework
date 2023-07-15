@@ -1,0 +1,80 @@
+/* Variables */
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0; }
+  nav ul li {
+    align-items: center;
+    left: 10px;
+    margin-left: 20px; }
+    nav ul li:not(:last-child) {
+      margin-right: 10px; }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 5px; }
+      nav ul li a:hover {
+        text-decoration: underline; }
+    nav ul li:last-child {
+      margin-left: 10px; }
+
+/* Nest Main */
+body {
+  width: 3600px;
+  left: 5%;
+  background-color: #daaa0e;
+  height: 640px;
+  color: black; }
+  body hearder {
+    color: red; }
+  body #intro-container {
+    display: flex; }
+    body #intro-container #intro-text {
+      background-color: #d4d5d8;
+      border: 12px solid white;
+      height: 600px;
+      width: 17%;
+      left: 1%;
+      top: 10%;
+      position: relative;
+      color: black;
+      flex-direction: column;
+      align-items: center; }
+      body #intro-container #intro-text .submit-buttton {
+        background-color: #daaa0e;
+        color: white;
+        border: 0;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 9em;
+        height: 2.5em;
+        font-size: 0.8rem;
+        font-weight: bold;
+        position: relative;
+        top: 36%;
+        left: 40%;
+        transform: translate(-50%, -120%); }
+      body #intro-container #intro-text span {
+        font-family: 'Sacramento', cursive;
+        position: relative;
+        top: 20%;
+        left: 29%;
+        font-size: 2rem; }
+      body #intro-container #intro-text h3 {
+        font-family: Arial, Helvetica, Sans-Serif;
+        position: relative;
+        top: 22%;
+        left: 24%; }
+      body #intro-container #intro-text p {
+        position: relative;
+        top: 24%;
+        left: 20%;
+        font-size: 0.8rem; }
+    body #intro-container #intro-image {
+      border: 12px solid white;
+      height: 600px;
+      position: relative;
+      width: 25%; }
+      body #intro-container #intro-image img {
+        max-width: 1200px;
+        height: 600px; }

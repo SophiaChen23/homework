@@ -1,0 +1,98 @@
+/* Variables */
+@import 'colors';
+@import 'nav';
+
+
+/* Nest Main */
+body {
+    width:3600px;
+    left:5%;
+    background-color: #{$color-1 };
+    height: 640px;
+    color:black;
+
+hearder{
+    color: red;
+}
+    #intro-container {
+        display: flex;
+
+        #intro-text {
+            background-color: #{$color-4};
+            border: 12px solid #{$color-3};
+            height: 600px;
+            width: 17%;
+            left: 1%;
+            top: 10%;
+            position: relative;
+            color: black;
+
+
+            flex-direction: column;
+            align-items: center;
+
+
+            .submit-buttton {
+                background-color: #{$color-1};
+                color: #{$color-3};
+                border: 0;
+                border-radius: 10px;
+                cursor: pointer;
+                width: 9em;
+                height: 2.5em;
+                font-size: 0.8rem;
+                font-weight: bold;
+
+
+                //this is to center content vertically
+                position: relative;
+                top: 36%;
+                left: 40%;
+                transform: translate(-50%, -120%);
+            }
+
+
+            span {
+                font-family: 'Sacramento', cursive;
+                position: relative;
+                top: 20%;
+                left: 29%;
+                font-size: 2rem;
+            }
+
+            h3 {
+                font-family: Arial, Helvetica, Sans-Serif;
+                position: relative;
+                top: 22%;
+                left: 24%;
+            }
+
+            p {
+                position: relative;
+                top: 24%;
+                left: 20%;
+                font-size: 0.8rem;
+            }
+
+        }
+
+        #intro-image {
+            border: 12px solid #{$color-3};
+            height: 600px;
+
+            position: relative;
+            width: 25%;
+
+            img {
+                max-width: 1200px;
+                height: 600px;
+            }
+
+
+        }
+    }
+
+
+}
+
+// Mixin or Extend for button

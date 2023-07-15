@@ -1,0 +1,34 @@
+nav {
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+
+    li {
+
+      align-items: center;
+      left:10px;
+      margin-left: 20px;
+
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+}
