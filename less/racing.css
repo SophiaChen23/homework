@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300,400,400,500,500,600,600,700,700,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+body {
+    width: 100%;
+    height: 100%;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-family: 'Poppins';
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+.about main .collection section {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.about_main .collection_section_container .new_text {
+    width: 100%;
+    float: left;
+    font-size: 2em;
+    color: rgb(12, 1, 22);
+}
+
+.about main .collection_section .container .consectetur_text {
+    width: 100%;
+    float: left;
+    font-size: 1.2em;
+    color: rgb(12, 1, 22);
+    font-weight: 400;
+    margin-left: 0px;
+    padding-bottom: 30px;
+}
+
+.about_main .collection_section_3 {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+}
+
+.about_main .collection_section_3 .container .racing_shoes {
+    width: 100%;
+    float: left;
+    background-color: rgb(234, 231, 231);
+    height: auto;
+    padding-top: 70px;
+    background-size: 100%;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.about_main .collection_section_3 .container .racing_shoes .shoes-img3 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.about_main .collection_section_3 .container .racing_shoes .shoes-img3 img {
+    margin-top: 4em;
+    width: 70%;
+}
+
+.collection_texts {
+    width: 100%;
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    background-color: rgb(207, 67, 79);
+    padding: 30px 0px;
+}
+
+.about_main .collection_section_3 .container .racing_shoes .sale_text {
+    width: 100%;
+    float: left;
+    font-size: 3em;
+    color: rgb(207, 67, 79);
+    line-height: 75px;
+}
+
+.about_main .collection_section_3 .container .racing_shoes .number_text {
+    width: 100%;
+    float: left;
+    font-size: 1em;
+    color: rgb(207, 67, 79);
+    line-height: 75px;
+}
+
+.collection_section_3 .container .racing_shoes .seemore {
+    width: 80%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(207, 67, 79);
+    font-size: 1em;
+    margin-top: 35px;
+}
+
+.copyright {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgb(207, 67, 79);
+    font-family: 'Poppins';
+}
