@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+/*---------
+rgb(255,255,255)
+rgb(0,0,0)
+rgba(0,0,0,0.5)
+rgba(0,0,0,0.24)
+rgb(22, 34, 42)
+rgb(58, 96, 115)
+
+
+//Fonts:
+Bitter
+FontAwesome
+
+----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter"; }
+
+/* Styles for the image grid */
+.image-container {
+  border: 20px solid #fff; /* Add a border to the container */
+  padding: 0 200px;/* Add padding to create space between images and the page edges */
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Adjust the gap between images as needed */
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+}
+
+/* Adjust the size of images as needed */
+.image-grid img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color:rgb(58, 96, 115);
+  color:white;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color:white;
+  color:black;
+}
