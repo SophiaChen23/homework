@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuid.min.js"></script>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.11/vue.js"></script>
 </head>
@@ -19,20 +19,27 @@
     </div>
 
     <div class="title">
-        <h3>Selection</h3>
+        <h3>Selections</h3>
     </div>
-<!--component global, the -->
-    <div id="app">
-        <div class="image-container">
-            <div class="image-item" v-for="item in imageList" >
-                <img class="image-grid" :src="item.imageUrl" :alt="item.title">
-                <h4>{{ item.title }}</h4>
-                <p>{{ item.caption }}</p>
+    <div class="image-container">
+
+            <div id="app">
+                <div class="image-grid" >
+                    <div v-for="item in imageList" :key="item.id">
+                     <img :src="item.imageUrl" :alt="item.title">
+
+                        <h4 style="text-align: center;">{{ item.title }}</h4>
+                        <p style="text-align: center;">{{ item.caption }}</p>
+                        <div style="display: flex; justify-content: center;">
+                            <button type="button">Add to Cart</button>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-        </div>
     </div>
 
-</div>
+
 <script>
     new Vue({
         el: '#app',

@@ -22,12 +22,12 @@ FontAwesome
 /* Styles for the image grid */
 .image-container {
   border: 20px solid #fff; /* Add a border to the container */
-  padding: 0 200px;/* Add padding to create space between images and the page edges */
+  padding: 0 160px;/* Add padding to create space between images and the page edges */
 }
 .image-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Adjust the gap between images as needed */
+  gap: 10px; /* Adjust the gap between images as needed */
   justify-content: center; /* Center the grid horizontally */
   align-items: center; /* Center the grid vertically */
 }
